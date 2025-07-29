@@ -4,8 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import java.time.LocalDate;
-import java.time.Month;
 import java.util.List;
 
 @Service
@@ -26,7 +24,3 @@ public class StudentService {
 }
 
 // API Layer -> Service Layer -> Data Access Layer
-//
-// List.of(
-//                new Student(1L,"sama", "sama@gmail.com", LocalDate.of(1993, Month.APRIL,7),23)
-//        );
